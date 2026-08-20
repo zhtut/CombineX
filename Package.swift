@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "CombineX",
     products: [
-        .library(name: "CombineX", targets: ["CombineX", "CXFoundation"]),
+        .library(name: "CombineX", targets: ["CombineX"]),
     ],
     dependencies: [
         // TODO: use swift-atomics which requires swift 5.1
